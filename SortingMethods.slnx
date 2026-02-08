@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="SortingMethods/SortingMethods.vcxproj" Id="79bfb838-432e-4006-89e8-1306c4666a09" />
+</Solution>
