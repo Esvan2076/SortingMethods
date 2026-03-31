@@ -13,6 +13,9 @@ public:
     void mergeSort();
     void mergeRecursion(size_t, size_t);
     void merge(size_t, size_t, size_t);
+    void quickSort();
+    void quickRecursion(size_t, size_t);
+    void bubbleSort();
 private:
     std::vector<Number> data;
 

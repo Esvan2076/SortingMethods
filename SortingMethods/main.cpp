@@ -46,6 +46,7 @@ int main()
 			break;
 		case 3:
 			fmt::print("You selected option 3: Bubble Sort\n");
+			list.bubbleSort();
 			break;
 		case 4:
 			fmt::print("You selected option 4: Insertion Sort\n");
@@ -56,10 +57,11 @@ int main()
 			list.mergeSort();
 			break;
 		case 6:
-			fmt::print("You selected option 6: \n");
+			fmt::print("You selected option 6: Quick Sort\n");
+			list.quickSort();
 			break;
 		case 7:
-			fmt::print("You selected option 7: \n");
+			fmt::print("You selected option 7:\n");
 			break;
 		case 0:
 			fmt::print("Exiting program...\n");
